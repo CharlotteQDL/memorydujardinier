@@ -157,10 +157,10 @@ function App() {
   //LISTE DE CARTES A AFFICHER
   let cardItems = shuffleCardList.map((item, i) => {
     if (item.isFound) {
-      return <Col sm="3" className="card" key={i}></Col>;
+      return <Col className="card" key={i}></Col>;
     } else if (!item.isVisible) {
       return (
-        <Col sm="3" className="card" key={i} onClick={() => cardFlip(item.id)}>
+        <Col className="card" key={i} onClick={() => cardFlip(item.id)}>
           <img
             src="/images/garden.jpg"
             className="Image"
@@ -170,7 +170,7 @@ function App() {
       );
     } else {
       return (
-        <Col sm="3" className="card" key={i}>
+        <Col className="card" key={i}>
           <img
             src={item.url}
             className="Image"
@@ -217,7 +217,7 @@ function App() {
   return (
     <Container className="container">
       {header}
-      <Row>{cardItems}</Row>
+      <Row sm="5">{cardItems}</Row>
       <Modal
         size="lg"
         style={{ maxWidth: "900px", width: "100%" }}
@@ -236,7 +236,7 @@ function App() {
           <div className="modalColumn">
             <img className="ImageModal" src={imageSource} />
             <p className="author">{binomAuthor}</p>
-            <p>Mon binôme est {binomName}.</p>
+            <p>Mon binôme est {binomName}</p>
           </div>
         </ModalBody>
         <ModalFooter>
