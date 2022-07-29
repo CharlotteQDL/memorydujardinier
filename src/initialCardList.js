@@ -1,5 +1,5 @@
 //A mettre hors d'un composant pour éviter que cette variable se recréée à chaque rerender du composant concerné
-const cardList = [
+const initialCardList = [
   {
     id: 1,
     url: "/images/abeille.jpg",
@@ -224,4 +224,4 @@ const cardList = [
   },
 ];
 
-export default cardList;
+export default initialCardList;
