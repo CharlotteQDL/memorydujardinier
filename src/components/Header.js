@@ -19,7 +19,7 @@ function Header() {
 
   return (
     <div className="row header">
-      <h1>LE MEMORY DU JARDINIER</h1>
+      <h1>MEMORY DU JARDINIER</h1>
       <div className="buttons">
         <button className="shufflebtn" {...newGameOnClick}>
           Nouvelle partie

@@ -5,7 +5,7 @@ const initialCardList = [
     url: "/images/abeille.jpg",
     name: "l'abeille",
     category: "ami du jardiner",
-    author: "Image par Mariya 🌸🌺🌼 de Pixabay",
+    author: "📷 : Mariya 🌸🌺🌼 de Pixabay",
     link:
       "https://pixabay.com/fr/photos/abeille-insecte-fleur-pollinisation-5618012/",
     detail:
@@ -19,7 +19,7 @@ const initialCardList = [
     url: "/images/frelonAsiatique.jpg",
     name: "le frelon asiatique",
     category: "ennemi du jardiner",
-    author: "Image par Alain GENERAL de Pixabay",
+    author: "📷 : Alain GENERAL de Pixabay",
     link:
       "https://pixabay.com/fr/photos/insecte-frelon-asiatique-france-4683232/",
     detail:
@@ -33,7 +33,7 @@ const initialCardList = [
     url: "/images/herisson.jpg",
     name: "le hérisson",
     category: "ami du jardiner",
-    author: "Image par Alexas_Fotos de Pixabay",
+    author: "📷 : Alexas_Fotos de Pixabay",
     link:
       "https://pixabay.com/fr/photos/enfant-h%c3%a9risson-jeune-h%c3%a9risson-1759006/",
     detail:
@@ -47,7 +47,7 @@ const initialCardList = [
     url: "/images/escargot.jpg",
     name: "l'escargot",
     category: "ennemi du jardinier",
-    author: "Image par István Mihály de Pixabay",
+    author: "📷 : István Mihály de Pixabay",
     link: "https://pixabay.com/fr/photos/escargot-coquille-d-escargot-405384/",
     detail:
       "Je me déplace uniquement en avançant grâce à mon grand pied et je raffole de la salade : c'est pourquoi ses feuilles sont parfois toutes trouées !",
@@ -60,7 +60,7 @@ const initialCardList = [
     url: "/images/chauveSouris.jpg",
     name: "la chauve-souris",
     category: "ami du jardinier",
-    author: "Image par Franck Barske de Pixabay",
+    author: "📷 : Franck Barske de Pixabay",
     link:
       "https://pixabay.com/fr/photos/chauve-souris-g%c3%a9ante-chiropt%c3%a8res-3501269/",
     detail:
@@ -74,7 +74,7 @@ const initialCardList = [
     url: "/images/moustique.jpg",
     name: "le moustique",
     category: "ennemi du jardinier",
-    author: "Image par mika mamy de Pixabay",
+    author: "📷 : mika mamy de Pixabay",
     link:
       "https://pixabay.com/fr/photos/moustique-macro-insecte-scarab%c3%a9e-719613/",
     detail:
@@ -88,7 +88,7 @@ const initialCardList = [
     url: "/images/verDeTerre.jpg",
     name: "le ver de terre",
     category: "ami du jardinier",
-    author: "Image par Natfot de Pixabay",
+    author: "📷 : Natfot de Pixabay",
     link:
       "https://pixabay.com/fr/photos/ver-de-terre-sol-salet%c3%a9-macro-686593/",
     detail:
@@ -102,7 +102,7 @@ const initialCardList = [
     url: "/images/taupe.jpg",
     name: "la taupe",
     category: "ennemi du jardinier",
-    author: "Image par Tabble de Pixabay",
+    author: "📷 : Tabble de Pixabay",
     link:
       "https://pixabay.com/fr/photos/animal-m%c3%b4le-jardin-prairie-1347755/",
     detail:
@@ -116,7 +116,7 @@ const initialCardList = [
     url: "/images/coccinelle.jpg",
     name: "la coccinelle",
     category: "ami du jardinier",
-    author: "Image par Myriams-Fotos de Pixabay",
+    author: "📷 : Myriams-Fotos de Pixabay",
     link:
       "https://pixabay.com/fr/photos/coccinelle-scarab%c3%a9e-coccinellidae-1480102/",
     detail:
@@ -130,7 +130,7 @@ const initialCardList = [
     url: "/images/pieride.jpg",
     name: "la piéride du chou",
     category: "ennemi du jardinier",
-    author: "Image par AnnaAr de Pixabay",
+    author: "📷 : AnnaAr de Pixabay",
     link:
       "https://pixabay.com/fr/photos/pi%c3%a9ride-du-chou-papillon-1852698/",
     detail:
@@ -144,7 +144,7 @@ const initialCardList = [
     url: "/images/mesange.jpg",
     name: "la mésange",
     category: "ami du jardinier",
-    author: "Image par ray jennings de Pixabay",
+    author: "📷 : ray jennings de Pixabay",
     link:
       "https://pixabay.com/fr/photos/m%c3%a9sange-bleue-oiseau-mignonne-915445/",
     detail:
@@ -158,7 +158,7 @@ const initialCardList = [
     url: "/images/chenille.jpg",
     name: "la chenille processionnaire",
     category: "ennemi du jardinier",
-    author: "Image par Marc Pascual de Pixabay ",
+    author: "📷 : Marc Pascual de Pixabay ",
     link:
       "https://pixabay.com/fr/photos/processionnaire-chenille-ligne-1189371/",
     detail:
@@ -172,7 +172,7 @@ const initialCardList = [
     url: "/images/perceOreille.jpg",
     name: "le perce-oreilles",
     category: "ami du jardinier",
-    author: "Image par Beverly Buckley de Pixabay",
+    author: "📷 : Beverly Buckley de Pixabay",
     link:
       "https://pixabay.com/fr/photos/insecte-ravageur-perce-oreille-4692389/",
     detail:
@@ -186,7 +186,7 @@ const initialCardList = [
     url: "/images/puceron.jpg",
     name: "le puceron",
     category: "ennemi du jardinier",
-    author: "Image par DerWeg de Pixabay",
+    author: "📷 : DerWeg de Pixabay",
     link: "https://pixabay.com/fr/photos/puceron-insecte-feuille-vert-6635004/",
     detail:
       "Je suis un parasite et je suce la sève des plantes, ce qui les empêche de bien se développer.",
@@ -199,7 +199,7 @@ const initialCardList = [
     url: "/images/crapaud.jpg",
     name: "le crapaud",
     category: "ami du jardinier",
-    author: "Image par Kathy Büscher de Pixabay",
+    author: "📷 : Kathy Büscher de Pixabay",
     link:
       "https://pixabay.com/fr/photos/crapaud-commun-crapaud-amphibiens-2382959/",
     detail:
@@ -213,7 +213,7 @@ const initialCardList = [
     url: "/images/mouche.jpg",
     name: "la mouche",
     category: "ennemi du jardinier",
-    author: "Image par adege de Pixabay ",
+    author: "📷 : adege de Pixabay ",
     link:
       "https://pixabay.com/fr/photos/voler-insecte-mousse-yeux-compos%c3%a9s-4264943/",
     detail:
