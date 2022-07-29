@@ -29,7 +29,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   height: 25%;
-  background-color: rgb(42, 121, 42);
+  background-color: rgb(51, 121, 42);
   border-bottom: 2px solid white;
   color: white;
   margin-bottom: 2px;
@@ -146,7 +146,7 @@ p {
     width: 80vw !important;
   }
   .card {
-    height: 22vh;
+    height: 22.5vh;
   }
   .shufflebtn {
     max-width: 150px;
@@ -166,7 +166,7 @@ p {
     width: 90vw !important;
   }
   .card {
-    height: 16vh;
+    height: 13vh;
   }
   .shufflebtn {
     max-width: 50px;

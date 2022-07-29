@@ -67,8 +67,8 @@ const imgBorderSlice = createSlice({
   name: "imgBorder",
   initialState: "0px solid transparent",
   reducers: {
-    fail: (state) => "4px solid #e47676",
-    success: (state) => "4px solid green",
+    fail: (state) => "4px solid red",
+    success: (state) => "4px solid rgb(50, 241, 24)",
     reinitImgBorder: (state) => "0px solid transparent",
   },
 });

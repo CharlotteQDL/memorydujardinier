@@ -22,7 +22,7 @@ export default function CardDetail() {
   return (
     <Modal
       size="lg"
-      style={{ maxWidth: "900px", width: "100%" }}
+      style={{ maxWidth: "900px" }}
       isOpen={showDetail}
       toggle={() => dispatch({ type: "showDetail/toggleDetail" })}
     >
