@@ -6,12 +6,13 @@ import useCardDetail from "../hooks/useCardDetail";
 import { QuestionCircleFilled } from "@ant-design/icons";
 
 export default function Card({ indice, item }) {
-  const [allowToFlip, setAllowToFlip] = useState(true);
+  // const [allowToFlip, setAllowToFlip] = useState(true);
   const dispatch = useDispatch();
   const cardList = useSelector((state) => state.cardList);
   const imgBorder = useSelector((state) => state.imgBorder);
   const handleQuestionClick = useCardDetail();
   const target = useRef(null);
+  const allowToFlip = useSelector((state) => state.allowToFlip);
 
   //FONCTION CLIC SUR CARTE
   const cardFlip = (index) => {
@@ -25,7 +26,8 @@ export default function Card({ indice, item }) {
         displayedCards.length > 0 &&
         displayedCards[0].id !== cardList[index].id //ne devrait pas exister normalement
       ) {
-        setAllowToFlip(!allowToFlip);
+        dispatch({ type: "allowToFlip/toggleAllow" });
+
         if (displayedCards[0].id === cardList[index].pair) {
           let binomIndex = cardList.findIndex(
             (e) => e.id === cardList[index].pair
@@ -76,7 +78,7 @@ export default function Card({ indice, item }) {
 
     // setImgBorder("0px solid transparent");
     dispatch({ type: "imgBorder/reinitImgBorder" });
-    setAllowToFlip(true);
+    dispatch({ type: "allowToFlip/toggleAllow" });
   };
 
   if (!cardList.some((e) => !e.isFound)) {
@@ -84,9 +86,9 @@ export default function Card({ indice, item }) {
   }
 
   let card = item.isFound ? (
-    <Col className="card" alt={item.author}></Col>
+    <Col className="card px-0" alt={item.author}></Col>
   ) : !item.isVisible ? (
-    <Col className="card" onClick={() => cardFlip(indice)}>
+    <Col className="card px-0" onClick={() => cardFlip(indice)}>
       <img
         src="/images/garden.jpg"
         className="Image"
@@ -95,7 +97,7 @@ export default function Card({ indice, item }) {
       ></img>
     </Col>
   ) : (
-    <Col className="card">
+    <Col className="card px-0">
       <img
         src={item.url}
         className="Image"

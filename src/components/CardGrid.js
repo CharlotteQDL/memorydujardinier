@@ -17,11 +17,11 @@ function CardGrid() {
   }, []);
 
   return (
-    <Container className="container">
-      <Row xs="4">
+    <Container className="container px-0">
+      <Row xs="4" className="px-0">
         {cardList.map((item, i) => (
           <>
-            <Card key={i} indice={i} item={item} />
+            <Card className="px-0" key={i} indice={i} item={item} />
           </>
         ))}
       </Row>

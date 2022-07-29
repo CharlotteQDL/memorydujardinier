@@ -20,19 +20,21 @@ function Header() {
   return (
     <div className="row header">
       <h1>LE MEMORY DU JARDINIER</h1>
-      <button className="shufflebtn" {...newGameOnClick}>
-        Nouvelle partie
-      </button>
-      <button
-        className="shufflebtn"
-        onClick={() =>
-          dispatch({
-            type: "showFoundPairs/togglePairs",
-          })
-        }
-      >
-        {phrase}
-      </button>
+      <div className="buttons">
+        <button className="shufflebtn" {...newGameOnClick}>
+          Nouvelle partie
+        </button>
+        <button
+          className="shufflebtn"
+          onClick={() =>
+            dispatch({
+              type: "showFoundPairs/togglePairs",
+            })
+          }
+        >
+          {phrase}
+        </button>
+      </div>
       <PairsDetail />
     </div>
   );
